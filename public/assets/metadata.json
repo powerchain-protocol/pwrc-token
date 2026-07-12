@@ -1,0 +1,119 @@
+{
+  "name": "PowerChain",
+  "symbol": "PWRC",
+  "description": "PowerChain (PWRC) is the native utility and governance token of the PowerChain Protocol, an enterprise platform for renewable energy infrastructure, tokenized real-world assets (RWAs), carbon markets, AI-powered energy management, and decentralized settlement built on Solana Token-2022.",
+
+  "image": "https://raw.githubusercontent.com/powerchain-protocol/pwrc-token/main/public/assets/pwrc.png",
+  "external_url": "https://powerchain.app",
+
+  "seller_fee_basis_points": 0,
+
+  "attributes": [
+    {
+      "trait_type": "Blockchain",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Mainnet"
+    },
+    {
+      "trait_type": "Token Standard",
+      "value": "SPL Token-2022"
+    },
+    {
+      "trait_type": "Decimals",
+      "value": 9
+    },
+    {
+      "trait_type": "Maximum Supply",
+      "value": "18,446,000,000 PWRC"
+    },
+    {
+      "trait_type": "Supply Model",
+      "value": "Fixed Supply"
+    },
+    {
+      "trait_type": "Protocol",
+      "value": "PowerChain Protocol"
+    },
+    {
+      "trait_type": "Specification",
+      "value": "PPS-T001"
+    },
+    {
+      "trait_type": "PCES Version",
+      "value": "1.0"
+    }
+  ],
+
+  "properties": {
+    "category": "token",
+    "creators": [],
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/powerchain-protocol/pwrc-token/main/public/assets/pwrc.png",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://raw.githubusercontent.com/powerchain-protocol/pwrc-token/main/public/assets/pwrc.svg",
+        "type": "image/svg+xml"
+      }
+    ]
+  },
+
+  "extensions": {
+    "mint": "PWRCRXXZxbg6FdQZfK3PMD7KP8xfxs9acvifJiG46wc",
+
+    "website": "https://powerchain.app",
+    "documentation": "https://docs.powerchain.app",
+    "whitepaper": "https://powerchain.app/whitepaper.pdf",
+
+    "github": "https://github.com/powerchain-protocol",
+    "x": "https://x.com/powerchainapp",
+
+    "explorer": "https://explorer.solana.com/address/PWRCRXXZxbg6FdQZfK3PMD7KP8xfxs9acvifJiG46wc",
+
+    "token": {
+      "name": "PowerChain",
+      "symbol": "PWRC",
+      "standard": "SPL Token-2022",
+      "network": "Solana Mainnet",
+      "decimals": 9,
+      "max_supply": 18446000000,
+      "fixed_supply": true,
+      "mintable": false,
+      "governance": true,
+      "staking": true
+    },
+
+    "protocol": {
+      "name": "PowerChain Protocol",
+      "version": "1.0",
+      "specification": "PCES v1.0",
+      "token_standard": "PPS-T001"
+    },
+
+    "ecosystem": {
+      "governance_token": "PWRC",
+      "energy_settlement_token": "NET",
+      "carbon_credit_token": "PCC",
+      "renewable_energy_token": "kWh",
+      "wrapped_token": "wPWRC"
+    },
+
+    "utility": [
+      "Protocol Governance",
+      "Validator Staking",
+      "Protocol Fees",
+      "Treasury Participation",
+      "Energy Marketplace",
+      "Carbon Marketplace",
+      "Cross-chain Bridge",
+      "Enterprise APIs",
+      "Developer Platform",
+      "AI Infrastructure",
+      "Ecosystem Incentives"
+    ]
+  }
+}
