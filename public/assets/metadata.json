@@ -2,7 +2,6 @@
   "name": "PowerChain",
   "symbol": "PWRC",
   "description": "PowerChain (PWRC) is the native utility and governance token of the PowerChain Protocol, an enterprise platform for renewable energy infrastructure, tokenized real-world assets (RWAs), carbon markets, AI-powered energy management, and decentralized settlement built on Solana Token-2022.",
-
   "image": "https://raw.githubusercontent.com/powerchain-protocol/pwrc-token/main/public/assets/pwrc.svg",
   "external_url": "https://powerchain.app",
 
@@ -32,6 +31,14 @@
     {
       "trait_type": "Supply Model",
       "value": "Fixed Supply"
+    },
+    {
+      "trait_type": "Transfer Fee",
+      "value": "2%"
+    },
+    {
+      "trait_type": "Maximum Transfer Fee",
+      "value": "100 PWRC"
     },
     {
       "trait_type": "Protocol",
@@ -69,9 +76,11 @@
     "documentation": "https://docs.powerchain.app",
     "whitepaper": "https://powerchain.app/whitepaper.pdf",
 
+    "repository": "https://github.com/powerchain-protocol/pwrc-token",
     "github": "https://github.com/powerchain-protocol",
-    "x": "https://x.com/powerchain.app",
-    "telegram": "https://t.me/powerchain.app",
+
+    "x": "https://x.com/powerchain",
+    "telegram": "https://t.me/powerchain_app",
 
     "explorer": "https://explorer.solana.com/address/PWRCRXXZxbg6FdQZfK3PMD7KP8xfxs9acvifJiG46wc",
 
@@ -85,14 +94,23 @@
       "fixed_supply": true,
       "mintable": false,
       "governance": true,
-      "staking": true
+      "staking": true,
+
+      "transfer_fee": {
+        "enabled": true,
+        "basis_points": 200,
+        "percentage": "2%",
+        "maximum_fee": 100,
+        "standard": "Token-2022 Transfer Fee Extension"
+      }
     },
 
     "protocol": {
       "name": "PowerChain Protocol",
       "version": "1.0",
       "specification": "PCES v1.0",
-      "token_standard": "PPS-T001"
+      "token_standard": "PPS-T001",
+      "license": "Apache-2.0"
     },
 
     "ecosystem": {
@@ -101,6 +119,12 @@
       "carbon_credit_token": "PCC",
       "renewable_energy_token": "kWh",
       "wrapped_token": "wPWRC"
+    },
+
+    "bridge": {
+      "wrapped_asset": "wPWRC",
+      "destination_network": "Sui",
+      "backing": "1:1 Locked PWRC"
     },
 
     "utility": [
@@ -115,6 +139,11 @@
       "Developer Platform",
       "AI Infrastructure",
       "Ecosystem Incentives"
-    ]
+    ],
+
+    "brand": {
+      "name": "PowerChain",
+      "tagline": "The Energy Infrastructure for a Decentralized World."
+    }
   }
 }
