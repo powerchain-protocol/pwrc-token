@@ -1,487 +1,435 @@
-# PowerChain (PWRC) Tokenomics
+# PowerChain Tokenomics v1.0
 
-> **Enterprise Infrastructure for Payments, Renewable Energy, Real-World Assets, Carbon Markets, and AI**
+<p align="center">
+<img src="./assets/powerchain-logo.svg" width="160">
 
-PowerChain (PWRC) is the native utility and governance token powering the PowerChain ecosystem. Built on **Solana SPL Token-2022**, PWRC enables secure payments, staking, governance, tokenized infrastructure, renewable energy settlement, and cross-chain interoperability.
+# PowerChain Protocol
 
----
+### Sustainable Digital Infrastructure for Renewable Energy
 
-# Table of Contents
+**Version:** v1.0 Stable  
+**Network:** Solana  
+**Token Standard:** SPL / Token-2022  
+**License:** Apache 2.0
 
-- Overview
-- Token Information
-- Supply
-- Token Allocation
-- Public Sale
-- Vesting Schedule
-- Circulating Supply
-- Token Utility
-- Economic Model
-- Governance
-- Treasury
-- Token-2022 Features
-- Transfer Fee
-- Burn Policy
-- Cross-Chain
-- Security
-- Token Lifecycle
-- Roadmap
-- Summary
+</p>
 
 ---
 
 # Overview
 
-PowerChain is building enterprise blockchain infrastructure for:
+PowerChain (PWRC) is the native utility token powering the PowerChain Protocol, a decentralized infrastructure for renewable energy markets, tokenized Real-World Assets (RWAs), carbon credits, and enterprise settlement.
 
-- Renewable Energy
-- Merchant Payments
-- Solana Pay
-- Carbon Markets
-- Real-World Assets (RWA)
-- AI Infrastructure
-- Decentralized Governance
-
-PWRC is the native asset used throughout the ecosystem.
-
----
-
-# Token Information
-
-| Property | Value |
-|-----------|-------|
-| **Token Name** | PowerChain |
-| **Symbol** | PWRC |
-| **Wrapped Token** | wPWRC |
-| **Primary Network** | Solana |
-| **Cross-Chain Network** | Sui |
-| **Token Standard** | SPL Token-2022 |
-| **Decimals** | 9 |
-| **Maximum Supply** | **18,446,000,000 PWRC** |
-| **Supply Model** | Fixed |
-| **Mint Authority** | Revoked After Genesis |
-| **Freeze Authority** | Revoked |
-| **Initial Price** | $0.000002 USD |
-| **Governance** | PowerChain DAO |
-| **Treasury** | Squads Multisig |
-
----
-
-# Total Supply
-
-```
-18,446,000,000 PWRC
-```
+The token economy has been designed around four core principles:
 
 - Fixed Supply
-- No Inflation
-- No Private Sale
-- No Advisor Allocation
-- Mint Authority Revoked
-- DAO Governed
+- Sustainable Deflation
+- Utility Driven Demand
+- Long-Term Ecosystem Growth
+
+PowerChain combines Solana's high-performance blockchain with enterprise-grade tokenomics, enabling scalable payments, decentralized finance, renewable energy settlement, and AI-powered commerce.
 
 ---
 
-# Token Allocation
-
-| Allocation | % | Tokens |
-|------------|--:|-------:|
-| Public Distribution | 32% | 5,902,720,000 |
-| Development & Ecosystem | 20% | 3,689,200,000 |
-| Team | 15% | 2,766,900,000 |
-| Liquidity | 15% | 2,766,900,000 |
-| Treasury | 8% | 1,475,680,000 |
-| Marketing | 5% | 922,300,000 |
-| Reserve | 5% | 922,300,000 |
-| **Total** | **100%** | **18,446,000,000** |
-
----
-
-# Public Distribution
-
-Public Distribution consists of:
-
-| Category | Tokens |
-|----------|-------:|
-| Genesis Presale | 5,000,000,000 |
-| Future Public Distribution | 902,720,000 |
-
-Accepted Assets
-
-- SOL
-- USDC
-- USDT
-
-Network
-
-- Solana
-
----
-
-# Vesting Schedule
-
-| Allocation | TGE | Cliff | Vesting |
-|------------|---:|------:|---------:|
-| Public Sale | 100% | None | None |
-| Liquidity | Configurable | None | Strategic Releases |
-| Development | 10% | None | 24 Months |
-| Team | 0% | 12 Months | 20% Monthly (5 Months) |
-| Marketing | 5% | None | 24 Months |
-| Treasury | DAO Controlled | — | Governance |
-| Reserve | DAO Controlled | — | Governance |
-
----
-
-# Team Vesting
-
-| Month | Released |
-|------:|---------:|
-| TGE | 0% |
-| 1-12 | Locked |
-| 13 | 20% |
-| 14 | 40% |
-| 15 | 60% |
-| 16 | 80% |
-| 17 | 100% |
-
----
-
-# Estimated Circulating Supply at Genesis
-
-| Allocation | TGE Unlock |
-|------------|-----------:|
-| Public Distribution | 100% |
-| Development | 10% |
-| Marketing | 5% |
-| Liquidity | Configurable |
-| Team | 0% |
-| Treasury | 0% |
-| Reserve | 0% |
-
-> Final circulating supply depends on liquidity provisioning and DAO treasury configuration.
-
----
-
-# Streamflow Vesting
+# Token Overview
 
 | Property | Value |
 |-----------|-------|
-| Locked Tokens | 3,000,000,000 PWRC |
-| Platform | Streamflow |
-| Status | Locked |
-| Contract | TBA |
+| Token Name | PowerChain |
+| Symbol | PWRC |
+| Version | v1.0 |
+| Blockchain | Solana |
+| Token Standard | SPL Token-2022 |
+| Decimals | 9 |
+| Consensus | Solana + Proof of Generation (PoG) |
+| Total Supply | **18,440,000,000 PWRC** |
+| Initial Supply | 18.44 Billion |
+| Inflation | None |
+| Supply Model | Fixed |
+| Deflation | Quarterly Burn |
+| Governance | PowerGov DAO |
+
+---
+
+# Contract Information
+
+| Property | Value |
+|----------|-------|
+| Network | Solana Mainnet |
+| Program Standard | SPL Token-2022 |
+| Contract Address | `PWRCRXXZxbg6FdQZfK3PMD7KP8xfxs9acvifJiG46wc` |
+| Token Extensions | Enabled |
+| Metadata | Immutable |
+| Freeze Authority | None (Recommended) |
 
 ---
 
 # Token Utility
 
-PWRC powers every layer of the ecosystem.
+PWRC powers every protocol within the PowerChain ecosystem.
 
-## PowerPay
+## Core Utilities
 
-- Merchant Payments
-- Solana Pay
-- QR Payments
-- Payment Links
-- Invoice Settlement
-- Subscriptions
-- x402 Payments
-- Machine-to-Machine Payments (MPP)
-
----
-
-## PowerGrid
-
-- Renewable Energy Trading
-- Grid Settlement
-- Energy Certificates
-- Microgrids
-- Virtual Power Plants
-
----
-
-## PowerCarbon
-
+- Renewable Energy Settlement
+- PowerDEX Trading
+- PowerBridge Cross-Chain Transfers
+- PowerPay Merchant Payments
+- DAO Governance
+- Staking Rewards
+- Validator Security
+- PET-20 Asset Settlement
 - Carbon Credit Marketplace
-- Carbon Retirement
-- ESG Reporting
+- Energy Attribute Certificates (EAC)
+- AI Commerce
+- Enterprise Treasury
+- Crowdfunding
+- RWA Tokenization
 
 ---
 
-## PowerRWA
-
-- Asset Tokenization
-- Infrastructure
-- Renewable Energy Assets
-
----
-
-## Governance
-
-- DAO Voting
-- Treasury Management
-- Protocol Upgrades
-- Proposal Creation
-
----
-
-## Staking
-
-- Validator Delegation
-- Governance Participation
-- Network Security
-
----
-
-## AI Services
-
-- AI Marketplace Payments
-- API Credits
-- Energy Forecasting
-- Automation Services
-
----
-
-# Economic Model
+# Ecosystem
 
 ```
-Users
-      │
-      ▼
-     PWRC
-      │
-      ├───────────────┐
-      ▼               ▼
-Transaction Fees   Payments
-      │               │
-      ▼               ▼
-Treasury         Merchants
-      │
-      ▼
-Governance
-      │
-      ▼
-Ecosystem Grants
-      │
-      ▼
-Growth
+                PowerChain Protocol
+
+                      PWRC
+                        │
+ ┌──────────┬────────────┼────────────┬─────────────┐
+ │          │            │            │             │
+ ▼          ▼            ▼            ▼             ▼
+
+PowerDEX  PowerPay   PowerGrid   PowerCarbon   PowerGov
+
+ │          │            │            │             │
+
+ ▼          ▼            ▼            ▼             ▼
+
+Bridge   Payments    Energy      Carbon        DAO
+
+ │          │            │            │             │
+
+ └──────────┴────────────┴────────────┴─────────────┘
+
+                     PowerAI
 ```
 
 ---
 
-# SPL Token-2022 Features
+# Fixed Supply
 
-Enabled Extensions
+PowerChain maintains a permanently fixed maximum supply.
 
-- Metadata Pointer
-- Token Metadata
-- Group Pointer
-- Group Member Pointer
-- Permanent Delegate
-- Transfer Fee
-- Transfer Hook (Future)
-- Confidential Transfers (Future)
+```
+Maximum Supply
+
+18,440,000,000 PWRC
+
+No Additional Minting
+
+Ever
+```
+
+No governance proposal, validator vote, or protocol upgrade can increase the maximum token supply.
 
 ---
 
-# Transfer Fee
+# Token Distribution
 
-| Property | Value |
-|-----------|-------|
-| Extension | Transfer Fee |
-| Maximum Fee | 2.5% |
-| Basis Points | 250 bps |
-| Controlled By | DAO Governance |
-
-Collected fees may be allocated to ecosystem development, treasury funding, liquidity incentives, or token burn, subject to governance approval.
+| Allocation | Percentage |
+|------------|-----------:|
+| Community & Ecosystem | 35% |
+| Treasury Reserve | 20% |
+| Staking Rewards | 15% |
+| Team & Advisors | 12% |
+| Strategic Partners | 8% |
+| Liquidity | 5% |
+| Public Sale | 3% |
+| Marketing & Growth | 2% |
 
 ---
 
-# Burn Policy
+# Vesting Schedule
 
-Burns are governance controlled.
+| Allocation | Cliff | Vesting |
+|------------|------|---------|
+| Team | 12 Months | 36 Months |
+| Advisors | 6 Months | 24 Months |
+| Treasury | DAO Controlled | Long-Term |
+| Community | Dynamic | Ecosystem |
+| Strategic | 6 Months | 24 Months |
+| Liquidity | None | Immediate |
 
-Maximum Burn
+---
 
-- Up to 2% per execution
+# Deflationary Mechanism
 
-Process
+PowerChain employs two complementary deflationary mechanisms:
+
+## Quarterly Burn
+
+Every quarter, **2% of the eligible circulating supply** may be permanently removed from circulation through the protocol burn process, subject to governance-defined rules.
 
 ```
-DAO Proposal
-      │
-      ▼
-Community Vote
-      │
-      ▼
-48 Hour Timelock
-      │
-      ▼
-Squads Multisig
-      │
-      ▼
-Execute Burn
+Quarterly Burn
+
+Circulating Supply
+
+        │
+
+        ▼
+
+2% Burn
+
+        │
+
+        ▼
+
+Permanent Removal
+
+        │
+
+        ▼
+
+Reduced Supply
 ```
+
+---
+
+## Protocol Fee Burn Engine
+
+Every eligible protocol transaction contributes to ecosystem sustainability.
+
+```
+Network Service Fee
+
+        │
+
+        ▼
+
+Deflationary Fee Engine
+
+        │
+
+ ┌──────┼──────────────┐
+
+ ▼      ▼              ▼
+
+50%    30%            20%
+
+Burn Validators    DAO Treasury
+```
+
+---
+
+# Solana Transaction & Service Fees
+
+PowerChain uses two fee components:
+
+| Fee | Description |
+|------|-------------|
+| Solana Network Fee | Paid in SOL for transaction execution |
+| PowerChain Service Fee | Up to **2%** on supported protocol services (governance configurable) |
+
+The protocol service fee is processed by the Deflationary Fee Engine.
+
+---
+
+# Staking
+
+PWRC holders can stake tokens to help secure the ecosystem.
+
+Rewards originate from:
+
+- Network transaction fees
+- Protocol service fees
+- Staking allocation
+- Validator incentives
+
+Supported features:
+
+- Flexible staking
+- Validator delegation
+- Compound rewards
+- Auto-restake
+- DAO participation
 
 ---
 
 # Governance
 
-Platform
+PowerGov DAO controls:
 
-- Squads Protocol
-
-| Parameter | Value |
-|-----------|-------|
-| Voting Period | 7 Days |
-| Quorum | 60% |
-| Approval | 66.7% |
-| Timelock | 48 Hours |
-| Treasury | 5-of-7 Multisig |
+- Treasury spending
+- Protocol upgrades
+- Validator approval
+- Registry updates
+- Ecosystem grants
+- Fee parameters
+- Burn policies
+- Community proposals
 
 ---
 
-# Treasury
+# Oracle Integration
 
-Managed by the PowerChain DAO.
+PowerChain integrates trusted oracle networks.
 
-Supports
+Supported sources include:
 
-- Grants
-- Ecosystem Growth
-- Strategic Investments
-- Liquidity Support
-- Emergency Funding
+- Pyth Network
+- NOAA Weather
+- Utility Providers
+- Smart Energy Meters
+- SCADA Systems
+- Renewable Registries
+
+---
+
+# DeFi Ecosystem
+
+Supported integrations include:
+
+- Jupiter
+- Raydium
+- Meteora
+- Orca
+
+Future integrations:
+
+- Margin trading
+- Lending
+- Stablecoins
+- Perpetuals
 
 ---
 
 # Cross-Chain
 
-```
-PWRC (Solana)
-        │
-        ▼
- Lock & Mint
-        │
-        ▼
-wPWRC (Sui)
-        │
-        ▼
- Burn & Unlock
-        │
-        ▼
-PWRC
-```
+Supported assets:
 
-- 1 PWRC = 1 wPWRC
+Native
+
+PWRC (Solana)
+
+↓
+
+PowerBridge
+
+↓
+
+wPWRC (Sui)
+
+↓
+
+Unified Liquidity
+
+Future chains:
+
+- Ethereum
+- Base
+- Avalanche
+- Polygon
 
 ---
 
 # Security
 
-- Fixed Supply
-- Mint Authority Revoked
-- Freeze Authority Revoked
+PowerChain utilizes:
+
+- Solana SVM
+- Token-2022
+- Versioned Transactions
+- Address Lookup Tables
+- Multi-Signature Treasury
+- Replay Protection
+- Ed25519 Signatures
 - DAO Governance
-- Squads Multisig Treasury
-- Streamflow Vesting
-- Transparent On-Chain Treasury
-- Open Source Programs (planned)
-- Independent Security Audits (planned)
+- Proof of Generation
+- Oracle Consensus
 
 ---
 
-# Token Lifecycle
+# Technical Specifications
 
-```
-Token Generation Event
-        │
-        ▼
-Create SPL Token-2022 Mint
-        │
-        ▼
-Configure Extensions
-        │
-        ▼
-Mint 18.446B PWRC
-        │
-        ▼
-Initialize Metadata
-        │
-        ▼
-Distribute Allocations
-        │
-        ▼
-Provide Initial Liquidity
-        │
-        ▼
-Lock Streamflow Allocations
-        │
-        ▼
-Revoke Mint Authority
-        │
-        ▼
-Revoke Freeze Authority
-        │
-        ▼
-Launch PowerChain DAO
-        │
-        ▼
-Enable Cross-Chain Bridge
-```
+| Property | Value |
+|----------|-------|
+| Protocol | PCS v1.0 |
+| Token Standard | SPL Token-2022 |
+| Consensus | Solana + PoG |
+| ABI | Frozen v1.0 |
+| SDK | v1 |
+| REST API | v1 |
+| Governance | PowerGov DAO |
+| Burn Model | Deflationary |
+| Maximum Supply | Fixed |
+| Total Supply | 18.44 Billion |
 
 ---
 
 # Roadmap
 
-## Phase 1
-
-- Genesis Presale
-- Token Generation Event
-- Initial Liquidity
-- DAO Launch
-
-## Phase 2
-
-- Staking
-- Merchant Payments
-- PowerPay
-- Solana Pay Integration
-
-## Phase 3
-
-- Renewable Energy Marketplace
-- Carbon Marketplace
-- RWA Platform
-
-## Phase 4
-
-- AI Marketplace
-- Cross-Chain Expansion
-- Enterprise Integrations
-- Global Partnerships
+```
+PWRC Launch
+      │
+      ▼
+PowerDEX
+      │
+      ▼
+PowerBridge
+      │
+      ▼
+PowerGrid
+      │
+      ▼
+PowerCarbon
+      │
+      ▼
+PET-20 Assets
+      │
+      ▼
+PowerAI
+      │
+      ▼
+Enterprise Adoption
+```
 
 ---
 
-# Summary
+# Official Modules
 
-| Property | Value |
-|-----------|-------|
-| Total Supply | **18,446,000,000 PWRC** |
-| Token Standard | SPL Token-2022 |
-| Decimals | 9 |
-| Initial Price | **$0.000002 USD** |
-| Fixed Supply | Yes |
-| Inflation | None |
-| Governance | PowerChain DAO |
-| Treasury | Squads Multisig |
-| Team Vesting | 12-Month Cliff + 5-Month Linear |
-| Transfer Fee | Up to 2.5% |
-| Burn Policy | Governance Controlled |
-| Cross-Chain | Solana ↔ Sui |
-| Utility | Payments, Energy, RWA, Carbon, AI, Governance |
+- PowerDEX v1.0
+- PowerBridge v1.0
+- PowerPay v1.0
+- PowerGrid v1.0
+- PowerCarbon v1.0
+- PowerGov v1.0
+- PowerAI v1.0
+- PET-20 v1.0
+- Proof of Generation v1.0
+- Energy Attribute Certificates v1.0
 
 ---
+
+# Documentation
+
+- Whitepaper
+- Developer Documentation
+- API Reference
+- SDK Documentation
+- Governance Portal
+- Brand Guidelines
+
+---
+
+# License
+
+Apache License 2.0 (Planned)
+
+---
+
+**PowerChain Protocol v1.0**
+
+*Tokenizing Renewable Energy. Powering Sustainable Finance.*
 
 ## Disclaimer
 
