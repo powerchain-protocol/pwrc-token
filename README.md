@@ -1,7 +1,7 @@
 # PowerChain Tokenomics v1.0
 
 <p align="center">
-<img src="./assets/powerchain-logo.svg" width="160">
+<img src="./public/assets/powerchain-logo.svg" width="160">
 
 # PowerChain Protocol
 
